@@ -86,7 +86,7 @@ Open the project in Visual Studio 2013
 4. MD Ajmain Abir
 
 ## Youtube Link
-[CSE 1200 Project: Eclipse Crown](https://www.youtube.com/)
+[CSE 1200 Project: Eclipse Crown](https://youtu.be/ol9r5b6XwZI)
 
 ## Project Report
 [Project Report: Eclipse Crown](PASTE_REPORT_LINK_HERE) // This part hasn't been created yet
