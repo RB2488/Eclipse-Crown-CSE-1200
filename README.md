@@ -1,8 +1,3 @@
-<img width="1289" height="756" alt="Screenshot 2026-07-31 at 2 52 55 PM" src="https://github.com/user-attachments/assets/95bd0316-8414-407f-a42a-c80efe3eae38" />
-
-
-
-
 # Eclipse Crown
 
 ## Game Description
