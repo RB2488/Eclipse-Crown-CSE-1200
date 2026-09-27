@@ -1,3 +1,8 @@
+<img width="1289" height="756" alt="Screenshot 2026-07-31 at 2 52 55 PM" src="https://github.com/user-attachments/assets/95bd0316-8414-407f-a42a-c80efe3eae38" />
+
+
+
+
 # Eclipse Crown
 
 ## Game Description
@@ -84,14 +89,6 @@ Open the project in Visual Studio 2013
 2. Afia Farzana
 3. Injamamul Haque Piash
 4. MD Ajmain Abir
-
-## Screenshots
-
-### **Menu**
-<img src="PASTE_MENU_SCREENSHOT_LINK_HERE" width="200" height="200">
-
-### **Character**
-<img src="PASTE_CHARACTER_SCREENSHOT_LINK_HERE" width="200" height="200">
 
 ## Youtube Link
 [CSE 1200 Project: Eclipse Crown](https://www.youtube.com/)
