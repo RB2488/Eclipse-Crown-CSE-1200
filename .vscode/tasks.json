@@ -1,0 +1,55 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Game (Debug)",
+            "type": "shell",
+            "command": "\"C:\\Program Files (x86)\\MSBuild\\12.0\\Bin\\MSBuild.exe\"",
+            "args": [
+                "maingame.vcxproj",
+                "/p:Configuration=Debug",
+                "/p:Platform=Win32"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Rebuild Game (Debug)",
+            "type": "shell",
+            "command": "\"C:\\Program Files (x86)\\MSBuild\\12.0\\Bin\\MSBuild.exe\"",
+            "args": [
+                "maingame.vcxproj",
+                "/t:Rebuild",
+                "/p:Configuration=Debug",
+                "/p:Platform=Win32"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": "build",
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Run Game",
+            "type": "shell",
+            "command": "cmd.exe",
+            "args": [
+                "/c",
+                "start",
+                "",
+                "Debug\\maingame.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "dependsOn": "Build Game (Debug)",
+            "problemMatcher": []
+        }
+    ]
+}
